@@ -5,18 +5,16 @@ $(document).ready(function() {
 
 var width = $(window).width();
 $(window).resize(function() {
+    tuning();
+
     if ($(window).width()==width) return;
     width = $(window).width();
-    tuning(); // launched only if there is an horizontal resize
+    horizontal_tuning(); // launched only if there is an horizontal resize
 });
 
 $(window).scroll(function() { });
 
 $(window).load(function() { });
-
-function isBreakpoint( alias ) {
-    return $('.device-' + alias).is(':visible');
-}
 
 function tuning() {
 	// responsiveness
@@ -28,4 +26,12 @@ function tuning() {
 
 	// for developers
 	$('#window_width').html('['+$(window).width()+'px]');
+}
+
+function horizontal_tuning() { // launched only if there is an horizontal resize
+
+}
+
+function isBreakpoint( alias ) {
+    return $('.device-' + alias).is(':visible');
 }
