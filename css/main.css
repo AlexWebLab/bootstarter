@@ -24,6 +24,24 @@ a, a:hover, a:focus, button {
 	text-decoration: none;
 	outline: 0 !important;
 }
+a.underlined {
+    display: inline-block;
+    position: relative;
+}
+a.underlined:after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 7px;
+}
+a.underlined:hover:after {
+    border-color: transparent !important;
+}
+.list-inline, .list-inline li, .list-unstyled, .list-unstyled li {margin: 0; padding: 0;}
 .form-control, .form-control:focus {box-shadow:none;}
 textarea {resize: none;}
 .clearfix:after { /* put this class when a parent has all his children floating */
