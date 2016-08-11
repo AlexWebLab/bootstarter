@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    // adding swipe support to carousel
+    $(".carousel").swiperight(function() {$(this).carousel('prev');});
+    $(".carousel").swipeleft(function() {$(this).carousel('next');});
+
     tuning();
 });
 
