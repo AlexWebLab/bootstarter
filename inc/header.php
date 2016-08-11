@@ -8,6 +8,8 @@
 	<title>BOOTSTARTER</title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-flexbox.css">
+	<link rel="stylesheet" href="js/select2-4.0.3/css/select2.min.css">
 	<link rel="stylesheet" href="css/main.css">
 
 	<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>

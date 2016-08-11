@@ -16,6 +16,7 @@
     <script src="js/owl.carousel.2.0.0-beta.3/owl.carousel.min.js"></script>
     <script src="js/fancyBox-18d1712/jquery.fancybox.pack.js"></script>
     <script src="js/fancyBox-18d1712/helpers/jquery.fancybox-media.js"></script>
+    <script src="js/select2-4.0.3/js/select2.full.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
