@@ -11,3 +11,4 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 On the next release:
 * animated mobile menu icon
 * add swipe support to carousel
+* select2
