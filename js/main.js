@@ -4,6 +4,11 @@ $(document).ready(function() {
     $(".carousel").swiperight(function() {$(this).carousel('prev');});
     $(".carousel").swipeleft(function() {$(this).carousel('next');});
 
+    // select2
+    $('.select2').select2({
+		minimumResultsForSearch: Infinity // hide search box
+	});
+
     tuning();
 });
 
@@ -18,7 +23,7 @@ $(window).resize(function() {
 
 $(window).scroll(function() { });
 
-$(window).load(function() { });
+$(window).load(function() { tuning(); });
 
 function tuning() {
 	// responsiveness
