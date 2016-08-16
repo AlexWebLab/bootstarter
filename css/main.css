@@ -29,7 +29,8 @@ a, a:hover, a:focus, button {
 .list-inline, .list-inline li, .list-unstyled, .list-unstyled li {margin: 0; padding: 0;}
 .form-control, .form-control:focus {box-shadow:none;}
 textarea {resize: none;}
-.navbar {margin: 0;}
+.navbar {margin: 0; border-radius: 0;}
+.dropdown-menu > li > a {white-space: normal;}
 
 /*--------------------------------------*/
 /* USEFUL CLASSES
