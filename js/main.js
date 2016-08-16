@@ -9,6 +9,14 @@ $(document).ready(function() {
 		minimumResultsForSearch: Infinity // hide search box
 	});
 
+    // dropdown animation
+    $('.dropdown').on('show.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideDown(200);
+    });
+    $('.dropdown').on('hide.bs.dropdown', function(e){
+        $(this).find('.dropdown-menu').first().stop(true, true).slideUp(100);
+    });
+
     tuning();
 });
 
