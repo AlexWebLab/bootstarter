@@ -30,27 +30,31 @@ a, a:hover, a:focus, button {
 .form-control, .form-control:focus {box-shadow:none;}
 textarea {resize: none;}
 .navbar {margin: 0; border-radius: 0;}
+.nav > li > a:focus, .nav > li > a:hover,
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover,
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {background-color: transparent;}
 .dropdown-menu > li > a {white-space: normal;}
+a[href^="tel"]{color:inherit;text-decoration:none;}
 
 /*--------------------------------------*/
 /* USEFUL CLASSES
 /*--------------------------------------*/
-a.underlined {
+.underlined {
     display: inline-block;
     position: relative;
 }
-a.underlined:after {
+.underlined:after {
     content: '';
     position: absolute;
-    left: 1px;
+    left: 0;
     display: inline-block;
     height: 1em;
     width: 100%;
     border-bottom: 1px solid;
     margin-top: 7px;
 }
-a.underlined:hover:after {
-    border-color: transparent !important;
+.underlined:hover:after {
+    border-color: transparent;
 }
 .clearfix:after { /* put this class when a parent has all his children floating */
    content: ".";
