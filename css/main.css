@@ -10,7 +10,7 @@
 /* HEADER
 /* CONTENT
 /* FOOTER
-/* RESPONSIVE
+/* MEDIA QUERIES
 /* DEVELOPMENT
 /*--------------------------------------*/
 
@@ -153,21 +153,36 @@ body, a {
 
 
 /*--------------------------------------*/
-/* RESPONSIVE
+/* MEDIA QUERIES
 /*--------------------------------------*/
-@media (max-width: 1199px) { /* from bootstrap Desktop (md) width and down */
+@media (min-width: 768px) { /* SM MD LG and up */
+
+}
+@media (min-width: 992px) { /* MD LG and up */
+
+}
+@media (min-width: 1200px) { /* LG and up */
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {  /* MD */
+
+}
+@media (min-width: 768px) and (max-width: 991px) {  /* SM */
+
+}
+@media (max-width: 1199px) { /* MD SM XS and down */
 
 }
 @media (max-width: 1024px) { /* from iPad landscape width and down */
 
 }
-@media (max-width: 991px) { /* from bootstrap Tablet (sm) width and down */
+@media (max-width: 991px) { /* SM XS and down */
 
 }
 @media (max-width: 768px) { /* from iPad portrait width and down */
 
 }
-@media (max-width: 767px) { /* from bootstrap Smartphone (xs) width and down */
+@media (max-width: 767px) { /* XS and down */
 
 }
 @media (max-width: 667px) { /* from iPhone 6 landscape width and down */
