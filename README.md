@@ -8,6 +8,7 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 * Fancybox (2.1.5)
 * Modernizr (2.8.3)
 * Respond.js (1.4.2)
+* CSS User Agent
 
 On the next release:
 * animated mobile menu icon
