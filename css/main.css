@@ -28,13 +28,15 @@ a, a:hover, a:focus, button {
 }
 .list-inline, .list-inline li, .list-unstyled, .list-unstyled li {margin: 0; padding: 0;}
 .form-control, .form-control:focus {box-shadow:none;}
-textarea {resize: none;}
+.carousel-control {text-shadow: none;}
+.carousel-control.left, .carousel-control.right {background-image: none;}
 .navbar {margin: 0; border-radius: 0;}
 .nav > li > a:focus, .nav > li > a:hover,
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover,
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {background-color: transparent;}
 .dropdown-menu > li > a {white-space: normal;}
 a[href^="tel"]{color:inherit;text-decoration:none;}
+textarea {resize: none;}
 
 /*--------------------------------------*/
 /* USEFUL CLASSES
