@@ -30,6 +30,15 @@ a, a:hover, a:focus, button {
 .form-control, .form-control:focus {box-shadow:none;}
 .carousel-control {text-shadow: none;}
 .carousel-control.left, .carousel-control.right {background-image: none;}
+.carousel-control {
+    bottom: auto;
+    text-shadow: none;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 8%;
+    opacity: 1;
+}
 .navbar {margin: 0; border-radius: 0;}
 .nav > li > a:focus, .nav > li > a:hover,
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover,
