@@ -87,6 +87,9 @@ textarea {resize: none;}
 .position_relative {
     position: relative !important;
 }
+.embed-responsive.squared {
+    padding-bottom: 100%;
+}
 
 /*--------------------------------------*/
 /* FADE EFFECT BOOTSTRAP CAROUSEL
