@@ -70,6 +70,11 @@ textarea {resize: none;}
     background-size: cover;
     background-repeat: no-repeat;
 }
+.background_contain {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .position_relative {
     position: relative !important;
 }
