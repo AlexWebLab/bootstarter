@@ -46,6 +46,7 @@ a, a:hover, a:focus, button {
 .dropdown-menu > li > a {white-space: normal;}
 a[href^="tel"]{color:inherit;text-decoration:none;}
 textarea {resize: none;}
+.select2 {width: 100% !important;}
 
 /*--------------------------------------*/
 /* USEFUL CLASSES
