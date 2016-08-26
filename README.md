@@ -13,7 +13,7 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 
 ## Plugins:
 * jQuery (1.12.4)
-* jQuery mobile
+* jQuery mobile (1.4.2)
 * Select2 (4.0.3)
 * Owl carousel (2.0.0 beta 3)
 * Fancybox (2.1.5)
