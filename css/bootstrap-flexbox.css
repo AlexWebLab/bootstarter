@@ -40,8 +40,8 @@
 .flex-md > *,
 .flex-lg > * {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .flexbox_wrapper_ie_10_11_fix {
@@ -60,65 +60,65 @@
 /* flex-wrap: wrap */
 .flex-wrap {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 @media (max-width: 767px) {
     .flex-xs-wrap {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .flex-sm-wrap {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .flex-md-wrap {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 @media (min-width: 1200px) {
     .flex-lg-wrap {
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 
 /* justify-content: space-between */
 .justify-space-between {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 @media (max-width: 767px) {
     .justify-xs-space-between {
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .justify-sm-space-between {
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .justify-md-space-between {
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 }
 @media (min-width: 1200px) {
     .justify-lg-space-between {
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
     }
 }
 
@@ -160,35 +160,35 @@
 /* flex-grow: 1 */
 .flex-grow-fill {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
 }
 @media (max-width: 767px) {
     .flex-grow-xs-fill {
         -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .flex-grow-sm-fill {
         -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .flex-grow-md-fill {
         -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
     }
 }
 @media (min-width: 1200px) {
     .flex-grow-lg-fill {
         -webkit-box-flex: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
     }
 }
 
