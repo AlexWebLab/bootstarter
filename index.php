@@ -14,6 +14,10 @@
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+	<aside id="secondary" role="complementary">
+		sidebar
+	</aside><!-- #secondary -->
 </div><!-- #content -->
 
 <?php require_once('inc/footer.php'); ?>
