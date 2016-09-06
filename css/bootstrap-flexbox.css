@@ -43,6 +43,19 @@
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .flexbox_wrapper_ie_10_11_fix {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
 
 /* flex-wrap: wrap */
 .flex-wrap {
