@@ -17,12 +17,18 @@ $(document).ready(function() {
         $(this).find('.dropdown-menu').first().stop(true, true).slideUp(100);
     });
 
+    // center modals
+    $(modalVerticalCenterClass).on('show.bs.modal', function(e) {
+        centerModals($(this));
+    });
+
     tuning();
 });
 
 var width = $(window).width();
 $(window).resize(function() {
     tuning();
+    centerModals();
 
     if ($(window).width()==width) return;
     width = $(window).width();
@@ -51,4 +57,21 @@ function horizontal_tuning() { // launched only if there is an horizontal resize
 
 function isBreakpoint( alias ) {
     return $('.device-' + alias).is(':visible');
+}
+
+var modalVerticalCenterClass = ".centered_modal";
+function centerModals($element) {
+    var $modals;
+    if ($element.length) {
+        $modals = $element;
+    } else {
+        $modals = $(modalVerticalCenterClass + ':visible');
+    }
+    $modals.each( function(i) {
+        var $clone = $(this).clone().css('display', 'block').appendTo('body');
+        var top = Math.round(($clone.height() - $clone.find('.popup-container').height()) / 2);
+        top = top > 0 ? top : 0;
+        $clone.remove();
+        $(this).find('.popup-container').css("margin-top", top);
+    });
 }
