@@ -28,7 +28,6 @@ $(document).ready(function() {
 var width = $(window).width();
 $(window).resize(function() {
     tuning();
-    centerModals();
 
     if ($(window).width()==width) return;
     width = $(window).width();
