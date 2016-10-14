@@ -22,6 +22,14 @@ $(document).ready(function() {
         centerModals($(this));
     });
 
+    // mobile toggle icon
+	$('#main_navigation').on('show.bs.collapse', function () {
+		$('.icon').addClass('icon--active');
+  	});
+	$('#main_navigation').on('hide.bs.collapse', function () {
+		$('.icon').removeClass('icon--active');
+  	});
+
     tuning();
 });
 

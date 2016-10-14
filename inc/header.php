@@ -23,14 +23,12 @@
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+					<button type="button" class="icon icon--transparent navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navigation">
+	                    <span></span><span></span><span></span>
+	                </button>
 					<a class="navbar-brand" href="#">Logo</a>
 				</div>
-				<div id="navbar" class="collapse navbar-collapse">
+				<div id="main_navigation" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#about">About</a></li>

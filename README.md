@@ -7,6 +7,7 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 * The above function is also used to display the current Bootstrap display width and the width of the viewport on the bottom right corner.
 * Bootstrap styling reset CSS (box-shadow, outline, border-radius, and so on).
 * 5 columns Bootstrap grid.
+* Animated mobile menu icon
 * [Boostrap flexbox library CSS](https://github.com/alexweblab/bootstrap-flexbox)
 * Bootstrap carousel fading effect (adding the following class: .carousel-fade).
 * Swipe effect to Boostrap carousel for touch devices.
@@ -24,6 +25,3 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 * Modernizr (2.8.3)
 * Respond.js (1.4.2)
 * CSS User Agent
-
-## On the next release:
-* animated mobile menu icon
