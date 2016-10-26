@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-flexbox.css">
 	<link rel="stylesheet" href="js/jasny-bootstrap-3.1.3/css/jasny-bootstrap.min.css">
+	<link rel="stylesheet" href="js/Slidebars-2.0.2/dist/slidebars.min.css">
 	<link rel="stylesheet" href="js/fancyBox-18d1712/jquery.fancybox.css">
 	<link rel="stylesheet" href="js/select2-4.0.3/css/select2.min.css">
 	<link rel="stylesheet" href="css/main.css">
