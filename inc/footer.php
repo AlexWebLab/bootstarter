@@ -12,6 +12,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap-3.1.3/js/jasny-bootstrap.min.js"></script>
     <script src="js/owl.carousel.2.0.0-beta.3/owl.carousel.min.js"></script>
     <script src="js/fancyBox-18d1712/jquery.fancybox.pack.js"></script>
     <script src="js/fancyBox-18d1712/helpers/jquery.fancybox-media.js"></script>
