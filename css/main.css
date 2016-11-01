@@ -23,7 +23,7 @@ a, a:hover, a:focus, button {
     width: 8%;
     opacity: 1;
 }
-.navbar {margin: 0; border-radius: 0;}
+.navbar {margin: 0; border-radius: 0;border-width: 0;}
 .nav > li > a:focus, .nav > li > a:hover,
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover,
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {background-color: transparent;}
@@ -82,11 +82,6 @@ textarea {resize: none;}
 /* FADE EFFECT BOOTSTRAP CAROUSEL
 /*--------------------------------------*/
 .carousel-fade .carousel-inner .item{opacity:0;-webkit-transition-property: opacity;transition-property:opacity}.carousel-fade .carousel-inner .active{opacity:1}.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{left:0;opacity:0;z-index:1}.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right{opacity:1}.carousel-fade .carousel-control{z-index:2}@media all and (transform-3d),(-webkit-transform-3d){.carousel-fade .carousel-inner>.item.active.left,.carousel-fade .carousel-inner>.item.active.right,.carousel-fade .carousel-inner>.item.next,.carousel-fade .carousel-inner>.item.prev{opacity:0;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.carousel-fade .carousel-inner>.item.active,.carousel-fade .carousel-inner>.item.next.left,.carousel-fade .carousel-inner>.item.prev.right{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-    height: 450px;
-}
 
 /*--------------------------------------*/
 /* OWL CAROUSEL
