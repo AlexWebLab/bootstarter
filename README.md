@@ -5,7 +5,6 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 ## Features:
 * jQuery function to detect in which Bootstrap display width the viewport is.
 * The above function is also used to display the current Bootstrap display width and the width of the viewport on the bottom right corner.
-* [Off-Canvas Menus and Sidebars](https://github.com/adchsm/Slidebars)
 * Bootstrap styling reset CSS (box-shadow, outline, border-radius, and so on).
 * 5 columns Bootstrap grid.
 * Animated mobile menu icon
