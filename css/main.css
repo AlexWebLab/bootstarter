@@ -33,6 +33,7 @@ a[href^="tel"]{color:inherit;text-decoration:none;}
 .pagination {border-radius: 0; width: 100%;}
 textarea {resize: none;}
 .select2 {width: 100% !important;}
+.btn:active,.btn.active {-webkit-box-shadow:none;box-shadow:none;}
 
 /*--------------------------------------*/
 /* USEFUL CLASSES
