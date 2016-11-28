@@ -1,4 +1,4 @@
-# bootstarter
+# Bootstarter
 
 Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhanced with useful plugins.
 
@@ -8,7 +8,7 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 * Bootstrap styling reset CSS (box-shadow, outline, border-radius, and so on).
 * 5 columns Bootstrap grid.
 * Animated mobile menu icon
-* Boostrap flexbox library CSS](https://github.com/alexweblab/bootstrap-flexbox)
+* [Boostrap flexbox library CSS](https://github.com/alexweblab/bootstrap-flexbox)
 * Bootstrap carousel fading effect (adding the following class: .carousel-fade).
 * Swipe effect to Boostrap carousel for touch devices.
 * Bootstrap dropdown animation.
