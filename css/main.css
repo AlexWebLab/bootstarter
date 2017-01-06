@@ -45,50 +45,6 @@ textarea {
 }
 
 /*--------------------------------------*/
-/* USEFUL CLASSES
-/*--------------------------------------*/
-.underlined {
-    display: inline-block;
-    position: relative;
-}
-.underlined:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    display: inline-block;
-    height: 1em;
-    width: 100%;
-    border-bottom: 1px solid;
-    margin-top: 7px;
-}
-.underlined:hover:after {
-    border-color: transparent;
-}
-.clearfix:after { /* put this class when a parent has all his children floating */
-    content: ".";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
-}
-.background_cover {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.background_contain {
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.position_relative {
-    position: relative !important;
-}
-.embed-responsive.squared {
-    padding-bottom: 100%;
-}
-
-/*--------------------------------------*/
 /* FADE EFFECT BOOTSTRAP CAROUSEL
 /*--------------------------------------*/
 .carousel-fade .carousel-inner .item{opacity:0;-webkit-transition-property: opacity;transition-property:opacity}.carousel-fade .carousel-inner .active{opacity:1}.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{left:0;opacity:0;z-index:1}.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right{opacity:1}.carousel-fade .carousel-control{z-index:2}@media all and (transform-3d),(-webkit-transform-3d){.carousel-fade .carousel-inner>.item.active.left,.carousel-fade .carousel-inner>.item.active.right,.carousel-fade .carousel-inner>.item.next,.carousel-fade .carousel-inner>.item.prev{opacity:0;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.carousel-fade .carousel-inner>.item.active,.carousel-fade .carousel-inner>.item.next.left,.carousel-fade .carousel-inner>.item.prev.right{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}
@@ -99,42 +55,7 @@ textarea {
 .checkbox{padding-left:20px}.checkbox label{display:inline-block;vertical-align:middle;position:relative;padding-left:5px}.checkbox label::before{content:"";display:inline-block;position:absolute;width:17px;height:17px;left:0;margin-left:-20px;border:1px solid #ccc;border-radius:3px;background-color:#fff;-webkit-transition:border .15s ease-in-out,color .15s ease-in-out;-o-transition:border .15s ease-in-out,color .15s ease-in-out;transition:border .15s ease-in-out,color .15s ease-in-out}.checkbox label::after{display:inline-block;position:absolute;width:16px;height:16px;left:0;top:0;margin-left:-20px;padding-left:3px;padding-top:1px;font-size:11px;color:#555}.checkbox input[type="checkbox"],.checkbox input[type="radio"]{opacity:0;z-index:1}.checkbox input[type="checkbox"]:focus + label::before,.checkbox input[type="radio"]:focus + label::before{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.checkbox input[type="checkbox"]:checked + label::after,.checkbox input[type="radio"]:checked + label::after{font-family:"FontAwesome";content:"\f00c"}.checkbox input[type="checkbox"]:indeterminate + label::after,.checkbox input[type="radio"]:indeterminate + label::after{display:block;content:"";width:10px;height:3px;background-color:#555;border-radius:2px;margin-left:-16.5px;margin-top:7px}.checkbox input[type="checkbox"]:disabled + label,.checkbox input[type="radio"]:disabled + label{opacity:.65}.checkbox input[type="checkbox"]:disabled + label::before,.checkbox input[type="radio"]:disabled + label::before{background-color:#eee;cursor:not-allowed}.checkbox.checkbox-circle label::before{border-radius:50%}.checkbox.checkbox-inline{margin-top:0}.checkbox-primary input[type="checkbox"]:checked + label::before,.checkbox-primary input[type="radio"]:checked + label::before{background-color:#337ab7;border-color:#337ab7}.checkbox-primary input[type="checkbox"]:checked + label::after,.checkbox-primary input[type="radio"]:checked + label::after{color:#fff}.checkbox-danger input[type="checkbox"]:checked + label::before,.checkbox-danger input[type="radio"]:checked + label::before{background-color:#d9534f;border-color:#d9534f}.checkbox-danger input[type="checkbox"]:checked + label::after,.checkbox-danger input[type="radio"]:checked + label::after{color:#fff}.checkbox-info input[type="checkbox"]:checked + label::before,.checkbox-info input[type="radio"]:checked + label::before{background-color:#5bc0de;border-color:#5bc0de}.checkbox-info input[type="checkbox"]:checked + label::after,.checkbox-info input[type="radio"]:checked + label::after{color:#fff}.checkbox-warning input[type="checkbox"]:checked + label::before,.checkbox-warning input[type="radio"]:checked + label::before{background-color:#f0ad4e;border-color:#f0ad4e}.checkbox-warning input[type="checkbox"]:checked + label::after,.checkbox-warning input[type="radio"]:checked + label::after{color:#fff}.checkbox-success input[type="checkbox"]:checked + label::before,.checkbox-success input[type="radio"]:checked + label::before{background-color:#5cb85c;border-color:#5cb85c}.checkbox-success input[type="checkbox"]:checked + label::after,.checkbox-success input[type="radio"]:checked + label::after{color:#fff}.checkbox-primary input[type="checkbox"]:indeterminate + label::before,.checkbox-primary input[type="radio"]:indeterminate + label::before{background-color:#337ab7;border-color:#337ab7}.checkbox-primary input[type="checkbox"]:indeterminate + label::after,.checkbox-primary input[type="radio"]:indeterminate + label::after{background-color:#fff}.checkbox-danger input[type="checkbox"]:indeterminate + label::before,.checkbox-danger input[type="radio"]:indeterminate + label::before{background-color:#d9534f;border-color:#d9534f}.checkbox-danger input[type="checkbox"]:indeterminate + label::after,.checkbox-danger input[type="radio"]:indeterminate + label::after{background-color:#fff}.checkbox-info input[type="checkbox"]:indeterminate + label::before,.checkbox-info input[type="radio"]:indeterminate + label::before{background-color:#5bc0de;border-color:#5bc0de}.checkbox-info input[type="checkbox"]:indeterminate + label::after,.checkbox-info input[type="radio"]:indeterminate + label::after{background-color:#fff}.checkbox-warning input[type="checkbox"]:indeterminate + label::before,.checkbox-warning input[type="radio"]:indeterminate + label::before{background-color:#f0ad4e;border-color:#f0ad4e}.checkbox-warning input[type="checkbox"]:indeterminate + label::after,.checkbox-warning input[type="radio"]:indeterminate + label::after{background-color:#fff}.checkbox-success input[type="checkbox"]:indeterminate + label::before,.checkbox-success input[type="radio"]:indeterminate + label::before{background-color:#5cb85c;border-color:#5cb85c}.checkbox-success input[type="checkbox"]:indeterminate + label::after,.checkbox-success input[type="radio"]:indeterminate + label::after{background-color:#fff}.radio{padding-left:20px}.radio label{display:inline-block;vertical-align:middle;position:relative;padding-left:5px}.radio label::before{content:"";display:inline-block;position:absolute;width:17px;height:17px;left:0;margin-left:-20px;border:1px solid #ccc;border-radius:50%;background-color:#fff;-webkit-transition:border .15s ease-in-out;-o-transition:border .15s ease-in-out;transition:border .15s ease-in-out}.radio label::after{display:inline-block;position:absolute;content:" ";width:11px;height:11px;left:3px;top:3px;margin-left:-20px;border-radius:50%;background-color:#555;-webkit-transform:scale(0,0);-ms-transform:scale(0,0);-o-transform:scale(0,0);transform:scale(0,0);-webkit-transition:-webkit-transform .1s cubic-bezier(0.8,-0.33,0.2,1.33);-moz-transition:-moz-transform .1s cubic-bezier(0.8,-0.33,0.2,1.33);-o-transition:-o-transform .1s cubic-bezier(0.8,-0.33,0.2,1.33);transition:transform .1s cubic-bezier(0.8,-0.33,0.2,1.33)}.radio input[type="radio"]{opacity:0;z-index:1}.radio input[type="radio"]:focus + label::before{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.radio input[type="radio"]:checked + label::after{-webkit-transform:scale(1,1);-ms-transform:scale(1,1);-o-transform:scale(1,1);transform:scale(1,1)}.radio input[type="radio"]:disabled + label{opacity:.65}.radio input[type="radio"]:disabled + label::before{cursor:not-allowed}.radio.radio-inline{margin-top:0}.radio-primary input[type="radio"] + label::after{background-color:#337ab7}.radio-primary input[type="radio"]:checked + label::before{border-color:#337ab7}.radio-primary input[type="radio"]:checked + label::after{background-color:#337ab7}.radio-danger input[type="radio"] + label::after{background-color:#d9534f}.radio-danger input[type="radio"]:checked + label::before{border-color:#d9534f}.radio-danger input[type="radio"]:checked + label::after{background-color:#d9534f}.radio-info input[type="radio"] + label::after{background-color:#5bc0de}.radio-info input[type="radio"]:checked + label::before{border-color:#5bc0de}.radio-info input[type="radio"]:checked + label::after{background-color:#5bc0de}.radio-warning input[type="radio"] + label::after{background-color:#f0ad4e}.radio-warning input[type="radio"]:checked + label::before{border-color:#f0ad4e}.radio-warning input[type="radio"]:checked + label::after{background-color:#f0ad4e}.radio-success input[type="radio"] + label::after{background-color:#5cb85c}.radio-success input[type="radio"]:checked + label::before{border-color:#5cb85c}.radio-success input[type="radio"]:checked + label::after{background-color:#5cb85c}input[type="checkbox"].styled:checked + label:after,input[type="radio"].styled:checked + label:after{font-family:'FontAwesome';content:"\f00c"}input[type="checkbox"] .styled:checked + label::before,input[type="radio"] .styled:checked + label::before{color:#fff}input[type="checkbox"] .styled:checked + label::after,input[type="radio"] .styled:checked + label::after{color:#fff}input[type="checkbox"].styled:checked + label:after,input[type="radio"].styled:checked + label:after,.checkbox input[type=checkbox]:checked + label:after{font-family:'Glyphicons Halflings';content:"\e013"}input[type="checkbox"].styled:checked label:after,input[type="radio"].styled:checked label:after,.checkbox label:after{padding-left:4px;padding-top:2px;font-size:9px}
 
 /*--------------------------------------*/
-/* 5-COLUMNS
-/*--------------------------------------*/
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.col-xs-15 {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-    .col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}
-
-/*--------------------------------------*/
-/* NAVIGATION ICON
+/* ANIMATED TOGGLE NAVIGATION ICON
 /*--------------------------------------*/
 .icon {
     background-color: #BF0040;
@@ -198,16 +119,66 @@ textarea {
 }
 
 /*--------------------------------------*/
+/* USEFUL CLASSES
+/*--------------------------------------*/
+.underlined {
+    display: inline-block;
+    position: relative;
+}
+.underlined:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 7px;
+}
+.underlined:hover:after {
+    border-color: transparent;
+}
+.clearfix:after { /* put this class when a parent has all his children floating */
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.background_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background_contain {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.position_relative {
+    position: relative !important;
+}
+.position_absolute {
+    position: absolute !important;
+    width: 100%;
+}
+.embed-responsive.squared {
+    padding-bottom: 100%;
+}
+
+/*--------------------------------------*/
 /* GLOBAL
 /*--------------------------------------*/
 body, a {
     /*-webkit-font-smoothing:antialiased;*/
     /*-moz-osx-font-smoothing: grayscale;*/
 }
+
 ::-webkit-input-placeholder {  }
 ::-moz-placeholder {  }
 :-ms-input-placeholder {  }
 :-moz-placeholder {  }
+
 .container-fluid {
     max-width: 1200px;
 }
