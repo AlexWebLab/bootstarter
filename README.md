@@ -15,7 +15,6 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 * [Better styling for Bootstrap checkboxes and radio buttons](https://github.com/flatlogic/awesome-bootstrap-checkbox)
 * Preset media queries covering all the Bootstrap display width combinations and more common iOS devices.
 * Useful classes: .underlined, .clearfix, .background_cover, .background_contain, .position_relative, .embed-responsive.squared and many more.
-* [The missing components for Bootstrap](https://github.com/jasny/bootstrap)
 
 ## Plugins:
 * jQuery (1.12.4)
