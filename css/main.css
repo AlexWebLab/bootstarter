@@ -34,13 +34,14 @@ a[href^="tel"]{color:inherit;text-decoration:none;}
 textarea {resize: none;}
 .btn:active,.btn.active {-webkit-box-shadow:none;box-shadow:none;}
 .checkbox + .checkbox, .radio + .radio {margin-top: 10px;}
-.btn {border-color: #ccc;}
+.btn {border-color: #ccc; font-weight: normal;}
 .select2-selection--single {outline: 0 !important}
 input[type=text],
 input[type=email],
 input[type=password],
 textarea {
     -webkit-appearance: none;
+    outline: 0 !important;
 }
 
 /*--------------------------------------*/
