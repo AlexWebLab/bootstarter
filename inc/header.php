@@ -7,7 +7,7 @@
 
 	<title>BOOTSTARTER</title>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap_extended.min.css">
 	<link rel="stylesheet" href="css/bootstrap-flexbox.css">
 	<link rel="stylesheet" href="js/fancyBox-18d1712/jquery.fancybox.css">
 	<link rel="stylesheet" href="js/select2-4.0.3/css/select2.min.css">
