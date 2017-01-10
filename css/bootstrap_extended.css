@@ -168,6 +168,11 @@ textarea {
 .embed-responsive.squared {
     padding-bottom: 100%;
 }
+@media (max-width: 567px) {
+    .hidden-xxs {
+        display: none !important;
+    }
+}
 
 /*--------------------------------------*/
 /* DEVELOPMENT
