@@ -1,6 +1,5 @@
 <?php require_once('inc/header.php'); ?>
 
-<div id="content" class="site-content">
 	<main id="main" class="site-main" role="main">
 
 		<div class="container-fluid">
@@ -12,6 +11,5 @@
 		</div>
 
 	</main><!-- #main -->
-</div><!-- #content -->
 
 <?php require_once('inc/footer.php'); ?>
