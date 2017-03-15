@@ -69,6 +69,7 @@ textarea {
     right: 15px;
     top: 5px;
     width: 40px;
+    z-index: 9999;
 }
 .icon span {
     display: block;
