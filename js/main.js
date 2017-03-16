@@ -46,6 +46,8 @@ function tuning() {
 
 	}
 
+    $('.site-main').css( 'min-height', $(window).height()-( $('.site-header').outerHeight(true)+$('.site-footer').outerHeight(true)+$('#wpadminbar').outerHeight(true) ) );
+
 	// for developers
 	$('#window_width').html('['+$(window).width()+'px]');
 }
