@@ -183,6 +183,13 @@ textarea {
         display: none !important;
     }
 }
+.entry-content p::after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
 
 /*--------------------------------------------------------------
 # Accessibility
