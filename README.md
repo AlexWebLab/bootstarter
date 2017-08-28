@@ -18,8 +18,9 @@ Blank HTML/CSS/JS template for new projects based on Bootstrap (3.3.7) and enhan
 * jQuery (1.12.4)
 * jQuery mobile (1.4.2)
 * Select2 (4.0.3)
-* Flickity (2.0.5)
-* Fancybox (2.1.5)
+* Jasny Bootstrap (3.1.3)
+* Flickity (2.0.8)
+* Fancybox (3.1.20)
 * Modernizr (2.8.3)
 * Respond.js (1.4.2)
 * CSS User Agent
