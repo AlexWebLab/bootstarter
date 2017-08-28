@@ -5,14 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap_extended.css">
-	<link rel="stylesheet" href="css/bootstrap-flexbox.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="js/fancyBox-3.1.20/jquery.fancybox.min.css">
-	<link rel="stylesheet" href="js/select2-4.0.3/css/select2.min.css">
-	<link rel="stylesheet" href="js/flickity-2.0.8/flickity.min.css">
-	<link rel="stylesheet" href="js/jasny-bootstrap-3.1.3/css/jasny-bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="css/bootstrap_extended.css"> -->
+	<!-- <link rel="stylesheet" href="css/bootstrap-flexbox.css"> -->
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+	<!-- <link rel="stylesheet" href="js/fancyBox-3.1.20/jquery.fancybox.min.css"> -->
+	<!-- <link rel="stylesheet" href="js/select2-4.0.3/css/select2.min.css"> -->
+	<!-- <link rel="stylesheet" href="js/flickity-2.0.8/flickity.min.css"> -->
+	<!-- <link rel="stylesheet" href="js/jasny-bootstrap-3.1.3/css/jasny-bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/compressed.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
