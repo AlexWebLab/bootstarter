@@ -8,6 +8,10 @@ body, a {
 .container-fluid {
     max-width: 1200px;
 }
+.transition {
+    -webkit-transition: all 0.25s ease 0s;
+    transition: all 0.25s ease 0s;
+}
 
 /*--------------------------------------*/
 /* HEADER

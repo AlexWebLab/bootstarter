@@ -14,6 +14,20 @@ $(document).ready(function() {
         centerModals($(this));
     });
 
+    // hover effect for touch devices
+    $('.hover_effect').on('mouseenter', function() {
+        $(this).addClass('on_hover');
+    });
+    $('.hover_effect').on('touchstart', function() {
+        $(this).addClass('on_hover');
+    });
+    $('.hover_effect').on('mouseleave', function() {
+        $(this).removeClass('on_hover');
+    });
+    $('.hover_effect').on('touchend', function() {
+        $('.hover_effect').removeClass('on_hover');
+    });
+
     // mobile toggle icon
 	$('#main_navigation').on('show.bs.collapse', function () {
 		$('.icon').addClass('icon--active');
@@ -22,16 +36,33 @@ $(document).ready(function() {
 		$('.icon').removeClass('icon--active');
   	});
 
+    // show a specific Bootstrap tab pane based on the URL hashtag
+    if ($('.nav-tabs').length > 0) { // if .nav-tabs exists
+        var hashtag = window.location.hash;
+        if (hashtag!='') {
+            $('.nav-tabs > li').removeClass('active');
+            $('.nav-tabs > li > a[href="'+hashtag+'"]').parent('li').addClass('active');
+            $('.tab-content > div').removeClass('active');
+            $(hashtag).addClass('active');
+        }
+    }
+
     tuning();
 });
 
 var width = $(window).width();
+var resizeTimer;
 $(window).resize(function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+    // Run code here, resizing has "stopped"
     tuning();
 
     if ($(window).width()==width) return;
     width = $(window).width();
     horizontal_tuning(); // launched only if there is an horizontal resize
+
+    }, 250);
 });
 
 $(window).scroll(function() { });
