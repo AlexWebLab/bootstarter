@@ -20,6 +20,6 @@
 <!-- <script src="js/select2-4.0.3/js/select2.full.min.js"></script> -->
 <!-- <script src="js/jasny-bootstrap-3.1.3/js/jasny-bootstrap.min.js"></script> -->
 <script src="js/compressed.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js?ver=<?php echo time(); ?>"></script>
 </body>
 </html>
