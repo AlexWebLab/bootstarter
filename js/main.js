@@ -1,18 +1,13 @@
 $(document).ready(function() {
 
     // adding swipe support to carousel
-    $(".carousel").swiperight(function() {$(this).carousel('prev');});
-    $(".carousel").swipeleft(function() {$(this).carousel('next');});
+    $(".carousel").on('swiperight', function() {$(this).carousel('prev');});
+    $(".carousel").on('swipeleft', function() {$(this).carousel('next');});
 
     // select2
     $('.select2').select2({
 		minimumResultsForSearch: Infinity // hide search box
 	});
-
-    // center modals
-    $(modalVerticalCenterClass).on('show.bs.modal', function(e) {
-        centerModals($(this));
-    });
 
     // hover effect for touch devices
     $('.hover_effect').on('mouseenter', function() {
@@ -47,12 +42,16 @@ $(document).ready(function() {
         }
     }
 
+    $('.entry-content iframe[src*="youtube.com"]').each(function() {
+        $(this).attr('src', $(this).attr('src')+'&amp;wmode=transparent&amp;rel=0').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
+    });
+
     tuning();
 });
 
 var width = $(window).width();
 var resizeTimer;
-$(window).resize(function() {
+$(window).on('resize', function() {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function() {
     // Run code here, resizing has "stopped"
@@ -62,12 +61,12 @@ $(window).resize(function() {
     width = $(window).width();
     horizontal_tuning(); // launched only if there is an horizontal resize
 
-    }, 250);
+    }, 100);
 });
 
-$(window).scroll(function() { });
+$(window).on('scroll', function() { });
 
-$(window).load(function() { tuning(); });
+$(window).on('load', function() { tuning(); });
 
 function tuning() {
 	// responsiveness
@@ -77,7 +76,9 @@ function tuning() {
 
 	}
 
-    $('.site-main').css( 'min-height', $(window).height()-( $('.site-header').outerHeight(true)+$('.site-footer').outerHeight(true)+$('#wpadminbar').outerHeight(true) ) );
+    var wpadminbar = $('#wpadminbar').outerHeight(true);
+    if (!wpadminbar) { wpadminbar = 0; }
+    $('.site-main').css( 'min-height', $(window).height()-( $('.site-header').outerHeight(true)+$('.site-footer').outerHeight(true)+wpadminbar ) );
 
 	// for developers
 	$('#window_width').html('['+$(window).width()+'px]');
@@ -87,23 +88,14 @@ function horizontal_tuning() { // launched only if there is an horizontal resize
 
 }
 
-function isBreakpoint( alias ) {
-    return $('.device-' + alias).is(':visible');
+function is_touch(){
+    if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
-var modalVerticalCenterClass = ".centered_modal";
-function centerModals($element) {
-    var $modals;
-    if ($element.length) {
-        $modals = $element;
-    } else {
-        $modals = $(modalVerticalCenterClass + ':visible');
-    }
-    $modals.each( function(i) {
-        var $clone = $(this).clone().css('display', 'block').appendTo('body');
-        var top = Math.round(($clone.height() - $clone.find('.popup-container').height()) / 2);
-        top = top > 0 ? top : 0;
-        $clone.remove();
-        $(this).find('.popup-container').css("margin-top", top);
-    });
+function isBreakpoint( alias ) {
+    return $('.device-' + alias).is(':visible');
 }
