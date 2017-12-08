@@ -18,7 +18,6 @@
 <body>
 <div id="page" class="site">
     <header id="masthead" class="site-header" role="banner">
-
 		<nav class="navbar">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -44,5 +43,4 @@
 				</div><!--/.nav-collapse -->
 			</div>
 		</nav>
-
     </header><!-- #masthead -->
