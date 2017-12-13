@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    is_touch();
 
     // adding swipe support to carousel
     $(".carousel").on('swiperight', function() {$(this).carousel('prev');});
@@ -90,9 +91,9 @@ function horizontal_tuning() { // launched only if there is an horizontal resize
 
 function is_touch(){
     if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
-        return true;
+        $('html').addClass('touch');
     } else {
-        return false;
+        $('html').addClass('no-touch');
     }
 }
 
