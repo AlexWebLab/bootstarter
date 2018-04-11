@@ -1,3 +1,5 @@
+	</main><!-- #main.site-main -->
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
         <div class="container-fluid">
             <?php echo date('Y'); ?> &copy;
@@ -20,5 +22,6 @@
 <script src="js/flickity-2.0.10/flickity.pkgd.min.js"></script>
 <script src="js/jasny-bootstrap-3.1.3/js/jasny-bootstrap.min.js"></script>
 <script src="js/main.js?ver=<?php echo time(); ?>"></script>
+
 </body>
 </html>

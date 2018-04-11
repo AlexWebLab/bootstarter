@@ -17,13 +17,13 @@
 </head>
 <body>
 <div id="page" class="site">
-    <header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" role="banner">
 		<nav class="navbar">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="icon icon--transparent navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navigation">
-	                    <span></span><span></span><span></span>
-	                </button>
+						<span></span><span></span><span></span>
+					</button>
 					<a class="navbar-brand" href="#">Logo</a>
 				</div>
 				<div id="main_navigation" class="collapse navbar-collapse">
@@ -43,4 +43,6 @@
 				</div><!--/.nav-collapse -->
 			</div>
 		</nav>
-    </header><!-- #masthead -->
+	</header><!-- #masthead -->
+
+	<main id="main" class="site-main" role="main">
