@@ -21,7 +21,6 @@
 <script src="js/select2-4.0.4/js/select2.full.min.js"></script>
 <script src="js/flickity-2.1.1/flickity.pkgd.min.js"></script>
 <script src="js/jasny-bootstrap-3.1.3/js/jasny-bootstrap.min.js"></script>
-<script src="js/jquery.nav.js"></script>
 <script src="js/main.js?ver=<?php echo time(); ?>"></script>
 
 </body>
