@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="js/fancyBox-3.3.5/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="js/select2-4.0.4/css/select2.min.css">
-	<link rel="stylesheet" href="js/flickity-2.0.10/flickity.min.css">
+	<link rel="stylesheet" href="js/flickity-2.1.1/flickity.min.css">
 	<link rel="stylesheet" href="js/jasny-bootstrap-3.1.3/css/jasny-bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css?ver=<?php echo time(); ?>">
 </head>
